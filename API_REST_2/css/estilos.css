@@ -1,0 +1,165 @@
+/*Barra de navegación*/
+.navbar {
+    overflow: hidden;
+    background-color: #fc7bf2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Partes de la barra de navegación*/
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Interactuaciones con botones*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/*Más de lo mismo*/
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/*Hover para que salga coloreado si pasas por encima*/
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    background-color: red;
+}
+
+/*Estilo para los formularios*/
+.form-container {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Estilo para la tabla de alumnos */
+.alumnos-table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #FFC0CB;
+}
+
+/* Estilo para las celdas de la tabla */
+.alumnos-table td, .alumnos-table th {
+    padding: 10px;
+    border: 2px solid #800080;
+}
+
+/* Estilo para el encabezado de la tabla */
+.alumnos-table th {
+    background-color: #9932CC;
+    color: black;
+}
+
+/* Estilo para los botones de editar y eliminar */
+.alumnos-table button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 4px; 
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilo para los botones de editar y eliminar al pasar el cursor */
+.alumnos-table button:hover {
+    background-color: #9932CC;
+}
+
+/* Estilo para la tabla de casas */
+.casas-table {
+    width: 80%; 
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #FFC0CB;
+}
+
+/* Estilo para las celdas de la tabla de casas */
+.casas-table td, .casas-table th {
+    padding: 10px;
+    border: 2px solid #800080;
+}
+
+/* Estilo para el encabezado de la tabla de casas */
+.casas-table th {
+    background-color: #9932CC;
+    color: black;
+}
+
+/* Estilo para los botones de editar y eliminar en la tabla de casas */
+.casas-table button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilo para los botones de editar y eliminar al pasar el cursor en la tabla de casas */
+.casas-table button:hover {
+    background-color: #9932CC;
+}
+
+/* Estilo para la tabla de asignaturas */
+.asignaturas-table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #FFC0CB;
+}
+
+/* Estilo para las celdas de la tabla de asignaturas */
+.asignaturas-table td, .asignaturas-table th {
+    padding: 10px;
+    border: 2px solid #800080;
+}
+
+/* Estilo para el encabezado de la tabla de asignaturas */
+.asignaturas-table th {
+    background-color: #9932CC;
+    color: black;
+}
+
+/* Estilo para los botones de editar y eliminar en la tabla de asignaturas */
+.asignaturas-table button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilo para los botones de editar y eliminar al pasar el cursor en la tabla de asignaturas */
+.asignaturas-table button:hover {
+    background-color: #9932CC;
+}
+
