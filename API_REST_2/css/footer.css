@@ -1,0 +1,11 @@
+/* Estilo para el footer */
+footer {
+    background-color: #fc7bf2;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
